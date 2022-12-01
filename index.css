@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, main {
+    background-color: #EDEDED;
+}
+
+header, section {
+    background-color: #fff;
+}
+
+body {
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+p, a {
+    font-family: Source Sans Pro;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.header__logo {
+    max-width: 127px;
+}
+
+.header__user-avatar {
+    max-width: 34px;
+    border-radius: 34px;
+}
+
+.card {
+    margin-bottom: 25px;
+}
+
+.card__header {
+    display: flex;
+    padding: 10px;
+}
+
+
+.card__header__user-avatar {
+    max-width: 34px;
+    border-radius: 34px;
+    margin-right: 7px;
+}
+
+.card__header a, .card__header__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card__header__text-container__location, .card__footer__desc__content{
+    font-weight: 400;
+}
+
+.card__footer__desc__content {
+    display: inline-block;
+}
+
+.card__content img{
+    max-width: 375px;
+    margin-bottom: 20px;
+}
+
+.card__footer {
+    padding: 0 10px;
+    padding-bottom: 15px;
+}
+
+.card__footer__buttons-list, .card__footer__likes {
+    margin-bottom: 12px;
+}
+
+.card__footer__buttons-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.card__footer__buttons-list__el {
+    margin-right: 20px;
+    max-height: 25px;
+}
+
+.card__footer__buttons-list__el img{
+    max-width: 25px;
+}
+
+.card__footer__buttons-list__el button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card__footer__buttons-list__el button:hover{
+    opacity: 75%;
+}
+
+
+
+
