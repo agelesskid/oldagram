@@ -32,19 +32,30 @@ p, a {
     text-align: left;
 }
 
-header {
+.list {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    list-style-type: none;
+}
+
+nav {
     padding: 15px;
     border-bottom: 1px solid #C6C6C6;
 }
 
-.header__logo {
+header nav ul {
+    justify-content: space-between;
+}
+
+header nav ul li {
+    max-height: 34px;
+}
+
+.header__nav__logo {
     max-width: 127px;
 }
 
-.header__user-avatar {
+.header__nav__user-avatar {
     max-width: 34px;
     border-radius: 34px;
 }
@@ -95,11 +106,7 @@ header {
 }
 
 .card__footer__buttons-list {
-    display: flex;
     justify-content: flex-start;
-    align-items: center;
-    list-style-type: none;
-    
 }
 
 .card__footer__buttons-list__el {

@@ -54,7 +54,7 @@ function generatePosts(arr) {
                     <img src="${arr[i].post}" alt="${arr[i].postAlt}">
                 </div>
                 <div class="card__footer">
-                    <ul class="card__footer__buttons-list">
+                    <ul class="list card__footer__buttons-list">
                         <li class="card__footer__buttons-list__el">
                             <button type="button"><img src="./images/icon-heart.png" alt="Like button"></button>
                         </li>
