@@ -67,8 +67,7 @@ function generatePosts(arr) {
                     </ul>
                     <p class="card__footer__likes">${arr[i].likes} likes</p>
                     <div class="card__footer__desc">
-                        <a class="card__footer__desc__username" href="#">${arr[i].username}</a>
-                        <p class="card__footer__desc__content">${arr[i].comment}</p>
+                        <p class="card__footer__desc__content"><a class="card__footer__desc__username" href="#">${arr[i].username}</a> ${arr[i].comment}</p>
                     </div>
                 </div>
             </section>
