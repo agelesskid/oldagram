@@ -36,7 +36,6 @@ const posts = [
 
 const mainEl = document.getElementById("main")
 
-
 function generatePosts(arr) {
     let posts = ''
 
